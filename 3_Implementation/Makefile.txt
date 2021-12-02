@@ -1,11 +1,10 @@
-PROJ_NAME = distance measurement using ultrasonic sensor
+PROJ_NAME = Distance measurement using ultrasonic sensor
 
 BUILD_DIR = Build
 
 # All Source code files
 SRC = Main.c\
-src/adc.c\
-src/servo.c\
+src/LCDmega32.h\
 
 # All header file paths
 INC = -I inc
